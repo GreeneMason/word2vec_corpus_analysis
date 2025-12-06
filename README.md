@@ -1,19 +1,25 @@
 # word2vec_corpus_analysis
-By comparing General Purpose Word2Vec against models trained on Law, Medical, and Computer Science corpora, you create a comparison that directly illustrates the power of linear algebra in semantic modeling.
+By comparing General Purpose Word2Vec against models trained on specialized domain corpora, this project illustrates the power of linear algebra in semantic modeling through Nearest Neighbor Overlap (NNE) and Cosine Similarity metrics.
 
 ### Environment
-Language : Python
-Package manager : pip
-IDE : VSCode
-Libraries: 
-  Gensim - A library with pretrained word2vec models
-  NumPy - Library for vector comparison
-  Scikit-Learn - Dimensionality reduction
-  Plotly - Visualization library
+Language: Python 3.11.0
+Package manager: pip
+IDE: VSCode
 
-Data Models:
-  General models:
-    - Google News Word2Vec
-  Specialized models:
-    - BioWordVec
+### Libraries
+- **Gensim** (4.4.0) - Word embedding model loading and similarity calculations
+- **NumPy** (2.3.5) - Vector operations and mathematical computations
+- **Matplotlib** (3.10.7) - Visualization and plotting
+
+### Data Models
+**General models:**
+- glove-wiki-gigaword-200
+
+**Specialized models:**
+- Law2Vec (200d) - Legal domain embeddings
+- SO_vectors_200 - Stack Overflow programming embeddings
+
+### Metrics
+- **NNE (Nearest Neighbor Overlap)** - Measures semantic neighborhood similarity between models
+- **Cosine Similarity** - Measures vector angle similarity between word embeddings
     
