@@ -1,0 +1,26 @@
+# Large model files
+*.bin
+*.vec.bin
+Law2Vec.200d.txt
+BioWordVec_PubMed_MIMICIII_d200.vec.bin
+SO_vectors_200.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
